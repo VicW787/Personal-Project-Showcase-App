@@ -38,3 +38,4 @@ The colours come from the mock-up design document and are set as CSS custom prop
 Layout is CSS Grid. The shop page uses repeat(auto-fit, minmax(180px, 1fr)) for the card grid, so the number of columns adjusts to the screen width on its own.
 One media query at the bottom of the file moves the sidebar above the grid on narrow screens.
 Font used is Arial, matching the mock-up.
+

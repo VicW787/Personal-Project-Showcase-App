@@ -6,13 +6,10 @@ function useFetch(url) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
  
-  useEffect(() => {
-    
-    let ignore = false;
- 
+  useEffect(() => {    
+    let ignore = false; 
     setLoading(true);
- 
-    fetch(url)
+     fetch(url)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Couldn't reach the server (" + response.status + ")");
