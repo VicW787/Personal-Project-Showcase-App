@@ -17,20 +17,18 @@ bash
 npm run server
 
 Serves db.json at <http://localhost:4000>.
+If the app says "Failed to fetch", check that json-server is still running. On WSL, use 127.0.0.1 rather than the localhost.
 
-Terminal 2 — the app:
+#### Terminal 2 — the app
+1) npm run dev
+2) Open the address Vite prints, in this case: <http://localhost:5173>.
 
-bash
-npm run dev
+#### To run the tests
+1) bash
+2) npm test
 
-Open the address Vite prints, in this case <http://localhost:5173>.
 
-To run the tests:
-
-bash
-npm test
-Styling
-
+#### Styling
 Plain CSS, hand-written, all of it in src/index.css. No Tailwind, Bootstrap or any other framework.
 
 The colours come from the mock-up design document and are set as CSS custom properties at the top of the file, so the whole palette can be changed from one place:
@@ -38,4 +36,3 @@ The colours come from the mock-up design document and are set as CSS custom prop
 Layout is CSS Grid. The shop page uses repeat(auto-fit, minmax(180px, 1fr)) for the card grid, so the number of columns adjusts to the screen width on its own.
 One media query at the bottom of the file moves the sidebar above the grid on narrow screens.
 Font used is Arial, matching the mock-up.
-
