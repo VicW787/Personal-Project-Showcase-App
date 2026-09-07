@@ -16,7 +16,7 @@ Terminal 1 — the backend:
 bash
 npm run server
 
-Serves db.json at <http://localhost:4000>.
+Serves db.json at <http://127.0.0.1:4000>.
 If the app says "Failed to fetch", check that json-server is still running. On WSL, use 127.0.0.1 rather than the localhost.
 
 #### Terminal 2 — the app
