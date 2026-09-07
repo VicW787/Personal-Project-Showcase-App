@@ -1,4 +1,4 @@
-Coffee R Us — Admin Portal
+# Coffee R Us — Admin Portal
 
 A single page application for a small coffee shop, built with React and React Router for the C5M8 summative assessment.
 
@@ -16,14 +16,14 @@ Terminal 1 — the backend:
 bash
 npm run server
 
-Serves db.json at http://localhost:4000.
+Serves db.json at <http://localhost:4000>.
 
 Terminal 2 — the app:
 
 bash
 npm run dev
 
-Open the address Vite prints, in this case http://localhost:5173.
+Open the address Vite prints, in this case <http://localhost:5173>.
 
 To run the tests:
 
@@ -35,7 +35,6 @@ Plain CSS, hand-written, all of it in src/index.css. No Tailwind, Bootstrap or a
 
 The colours come from the mock-up design document and are set as CSS custom properties at the top of the file, so the whole palette can be changed from one place:
 
-Layout is CSS Grid. The shop page uses repeat(auto-fit, minmax(180px, 1fr)) for the card grid, so the number of columns adjusts to the screen width on its own. 
+Layout is CSS Grid. The shop page uses repeat(auto-fit, minmax(180px, 1fr)) for the card grid, so the number of columns adjusts to the screen width on its own.
 One media query at the bottom of the file moves the sidebar above the grid on narrow screens.
 Font used is Arial, matching the mock-up.
-# Personal-Project-Showcase-App

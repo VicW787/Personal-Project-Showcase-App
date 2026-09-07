@@ -15,7 +15,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
-
         <Route path="/shop/:id" element={<CoffeeDetail />} />
         <Route path="/admin" element={<AdminPortal />} />
 
@@ -25,4 +24,4 @@ function App() {
   );
 }
  
-export default Home;
+export default App;
